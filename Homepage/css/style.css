@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/BackgroundImage\ HP.png);
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    position: relative;
+    height: 940px;
+}
+
+/*Navigation*/
+.navWrapper {
+    margin: 0 auto;
+    max-height: 69px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+}
+.navItems li {
+    list-style: none;
+    margin-right: 50px;
+}
+.navItems li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+/*Hero Section*/
+.heroContainer {
+    height: calc(100vh - 68px); width: 1150px;
+    margin: 30px auto 0;
+    
+}
+
+.heroContent {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+header p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: white;
+}
+.hello {
+    position: relative;
+    right: 50px;
+}
+header h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    margin: 24px 0;
+    color: white;
+}
+    
+.titles {
+    z-index: 1000;
+    position: relative;
+    transform: translate(-50%,-50%);
+}
+span:before {
+    content: '';
+    animation: animate infinite 8s;
+}
+@keyframes animate{
+    0%{content:'Researcher';}
+    25%{content:'Designer';}
+    50%{content:'Protoyper';}
+    75%{content:'Some Front-End Development';}
+    100%{content:'Professional Pet Rock Trainer';}
+}
+
+/*Hero Images*/
+.heroContent .heroFront {
+    background-image: url(../images/HeroImageBack\ HP.png);
+    position: relative; 
+    background-position: 7px;
+    transition: 400ms;
+}
+.heroContent .heroFront img:hover {
+    transform: rotate(-6deg);
+    transform-origin: center right;
+}
+
+/*CurlyBorder*/
+.curlyBorder {
+    position: relative;
+width: 598px;
+height: 683px;
+bottom: 600px;
+}
+
+
+.copyRight {
+    color: white;
+    position:absolute;
+    bottom: 0px;
+}
