@@ -68,8 +68,9 @@ header h1 {
     color: white;
 }
     
-.titles {
+p .titles {
     z-index: 1000;
+    font-size: 35px;
     position: relative;
     transform: translate(-50%,-50%);
 }
@@ -90,12 +91,8 @@ span:before {
     background-image: url(../images/HeroImageBack\ HP.png);
     position: relative; 
     background-position: 7px;
-    transition: 400ms;
 }
-.heroContent .heroFront img:hover {
-    transform: rotate(-6deg);
-    transform-origin: center right;
-}
+
 
 /*CurlyBorder*/
 .curlyBorder {
