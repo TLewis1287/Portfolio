@@ -76,19 +76,19 @@ p .titles {
 }
 span:before {
     content: '';
-    animation: animate infinite 8s;
+    animation: animate infinite 6s;
 }
 @keyframes animate{
     0%{content:'Researcher';}
     25%{content:'Designer';}
     50%{content:'Protoyper';}
-    75%{content:'Some Front-End Development';}
-    100%{content:'Professional Pet Rock Trainer';}
+    75%{content:'Professional Pet Rock Trainer';}
 }
 
 /*Hero Images*/
 .heroContent .heroFront {
     background-image: url(../images/HeroImageBack\ HP.png);
+    background-repeat: no-repeat;
     position: relative; 
     background-position: 7px;
 }
@@ -107,4 +107,35 @@ bottom: 600px;
     color: white;
     position:absolute;
     bottom: 0px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    nav ul {
+        position: relative;
+        right: 220px;
+    }
+    .heroContainer {
+        width: 80%;
+        position: relative;
+        top: 60px;
+    }
+    .heroContent {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .heroContent .heroFront {
+        background-image: none;
+    }
+    p .titles {
+        position: relative;
+        bottom: 30px;
+    }
+    .curlyBorder {
+        display:none; 
+    }
+    .copyRight {
+        bottom: -100px;
+    }
 }
