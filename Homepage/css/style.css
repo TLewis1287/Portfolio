@@ -92,6 +92,10 @@ span:before {
     position: relative; 
     background-position: 7px;
 }
+.heroContent .heroFront img:hover {
+    transform: rotate(-6deg);
+    transform-origin: bottom right;
+}
 
 
 /*CurlyBorder*/
@@ -130,7 +134,6 @@ bottom: 600px;
     }
     p .titles {
         position: relative;
-        bottom: 30px;
     }
     .curlyBorder {
         display:none; 
