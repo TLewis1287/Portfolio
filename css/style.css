@@ -93,6 +93,11 @@ span:before {
     background-position: 7px;
 }
 
+.heroContent .heroFront img:hover {
+    transform: rotate(-6deg);
+    transform-origin: bottom right;
+}
+
 
 /*CurlyBorder*/
 .curlyBorder {
