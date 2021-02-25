@@ -79,10 +79,10 @@ span:before {
     animation: animate infinite 6s;
 }
 @keyframes animate{
-    0%{content:'Researcher';}
-    25%{content:'Designer';}
-    50%{content:'Protoyper';}
-    75%{content:'Professional Pet Rock Trainer';}
+    25%{content:'Researcher';}
+    50%{content:'Designer';}
+    75%{content:'Protoyper';}
+    100%{content:'Professional Pet Rock Trainer';}
 }
 
 /*Hero Images*/
